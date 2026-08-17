@@ -90,11 +90,11 @@ CalleeTune is designed with a straightforward interface so you can configure you
 
 To make features like call-interception and ringtone-resuming possible, CalleeTune needs special access to certain parts of your Android device. We believe in total transparency. Here is exactly what we ask for and why:
 
-* **Phone & Call State:** Required to detect when an incoming call is happening so the app knows exactly when to start and stop the ringtone playback.
-* **Audio & Media:** Necessary to access your device's storage to load and play your selected custom audio track.
-* **Notifications:** Needed to run a foreground service that keeps the app running smoothly and reliably in the background.
-* **Battery Optimization:** Android often aggressively shuts down background apps to save battery. This permission ensures the system doesn't kill CalleeTune, so you never miss a ring.
-* **App Hibernation (Auto Revoke):** Highly recommended. Android automatically revokes background permissions from apps you haven't opened in a few months. This prevents CalleeTune from quietly breaking if you haven't opened the main menu in a while. 
+* **Phone & Call State:** Required to detect an incoming call so the app knows exactly when to start/stop the ringtone playback.
+* **Audio & Media:** Necessary to access your device's storage to load and play your selected favorite audio files.
+* **Notifications:** Needed to ensure that the app functions smoothly and reliably in the background when a call arrives.
+* **Battery Optimization:** Android often aggressively shuts down background apps to save battery. This permission ensures the system doesn't kill CalleeTune, so you never miss a ring. See FAQ for common issues for certain OEMs.
+* **App Hibernation (Auto Revoke):** Highly recommended. Android automatically revokes background permissions from apps you haven't opened in a few months. This prevents CalleeTune from quietly breaking if you haven't opened the app in a while. 
   * *Note for Xiaomi Users:* MIUI completely throttles apps working in the background in ultra power-saving mode. You must go to `Settings -> Apps -> Backgroundautostart` and enable the CalleeTune toggle manually.
 * **Do Not Disturb (DND) / DND Alarms:** Only requested if you explicitly enable the "Playback in DND" feature. It allows the app to bypass device silence. If denied, the app simply remains silent during DND mode.
 
@@ -102,6 +102,6 @@ To make features like call-interception and ringtone-resuming possible, CalleeTu
 
 ## Bug Reports & Feature Requests
 
-Encountered a bug or have an idea for a new feature? We want to hear about it! 
+Encountered a bug or have an idea for a new feature? I want to hear about it!
 
 Please use the **Issues** tab at the top of this repository to submit a ticket. When submitting a bug report, please include your device model, Android version, and steps to reproduce the issue.
