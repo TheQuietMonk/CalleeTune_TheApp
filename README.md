@@ -105,3 +105,5 @@ To make features like call-interception and ringtone-resuming possible, CalleeTu
 Encountered a bug or have an idea for a new feature? I want to hear about it!
 
 Please use the **Issues** tab at the top of this repository to submit a ticket. When submitting a bug report, please include your device model, Android version, and steps to reproduce the issue.
+
+If you want a new feature, I would recommend starting a new discussion under "Discussions" before raising it under issues. Similarly, prefer using "Q&A" under "Discussions" for a query before directly under "Issues" if you are not sure whether it's a bug.
