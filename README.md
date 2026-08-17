@@ -1,2 +1,107 @@
 # CalleeTune
-The Official, and the only legitimate, source of information for CalleeTune, the Android app.
+Welcome to the official, and only legitimate, source of information for **CalleeTune**, the app.
+
+This document serves as the public face of the app, providing a comprehensive user guide and a dedicated space for feedback. 
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [System Requirements](#system-requirements)
+3. [App Demo](#app-demo)
+4. [User Interface (UI) Guide](#user-interface-ui-guide)
+5. [Permissions Explained](#permissions-explained)
+6. [Bug Reports & Feature Requests](#bug-reports--feature-requests)
+
+---
+
+## Introduction
+
+**CalleeTune** is a utility application envisioned and created to enhance your Android device's incoming call experience. 
+
+**The Purpose:** It is lovingly created in response to a single question: what if my favourite music/song set as a ringtone could continue across calls rather than start from the beginning on every incoming call so that I could hear it the whole? That'it. **CalleTune** allows the ringtone playback to resume from the last stopped position across incoming calls, allowing you to hear the whole song divided in parts across calls. Secondary, it provides you with an option to set your favourite music/song as a system ringtone as part of its interface. 
+
+**Privacy First:** CalleeTune requires specific system access to serve its purpose reliably, but it **DOES NOT** collect and/or share any of your personal or device-specific information from your device.
+
+---
+
+## System Requirements
+
+* **Operating System:** Tested to work reliably on Android 14 or higher. You can try to use it on lower version, but, it may not works as expected, and no support would be provided for it. 
+
+---
+
+## App Demo
+
+Watch CalleeTune in action to see how easy it is to configure your custom ringtone experience:
+
+> *[Placeholder: Embed YouTube or GIF link here]*
+> `[![CalleeTune Demo Video](Link to Video Thumbnail Image)](Link to Video)`
+
+---
+
+## User Interface (UI) Guide
+
+CalleeTune is designed with a straightforward interface so you can configure your ringtone in seconds. Below is a breakdown of every element you will see on the main screen.
+
+### 1. Enable CalleeTune Toggle
+![Enable App Placeholder](https://via.placeholder.com/600x150?text=Enable+CalleeTune+Toggle)
+* **Purpose:** This is the master switch. When enabled, it allows CalleeTune to actively intercept incoming calls and play your customized track. 
+
+### 2. Track Status Diagnostic Box
+![Track Status Placeholder](https://via.placeholder.com/600x150?text=Track+Status+Box)
+* **Purpose:** A dynamic status box that lets you know if the app is ready. It displays your currently active ringtone, warns you if no valid track is configured, or alerts you if the app failed to set the ringtone.
+
+### 3. Enable Ringtone Resume Toggle
+![Ringtone Resume Placeholder](https://via.placeholder.com/600x150?text=Ringtone+Resume+Toggle)
+* **Purpose:** When toggled on, CalleeTune remembers exactly where your ringtone stopped playing during your last phone call and will resume from that exact second on your next call. 
+
+### 4. Enable Playback in DND Toggle
+![DND Playback Placeholder](https://via.placeholder.com/600x150?text=Playback+in+DND+Toggle)
+* **Purpose:** This setting allows your custom ringtone to bypass system silence, ensuring your audio plays even when your device is set to "Do Not Disturb" mode. 
+
+### 5. Track Progress Indicator
+![Track Progress Placeholder](https://via.placeholder.com/600x150?text=Track+Progress+Text)
+* **Purpose:** A simple text readout that shows your current resume position alongside the total duration of your loaded audio track.
+
+### 6. Select Audio Button
+![Select Audio Placeholder](https://via.placeholder.com/600x150?text=Select+Audio+Button)
+* **Purpose:** Opens your device's file picker so you can choose the specific audio track you want to use as your ringtone.
+
+### 7. Preview (Play/Pause) Button
+![Preview Track Placeholder](https://via.placeholder.com/600x150?text=Preview+Play/Pause+Button)
+* **Purpose:** Allows you to preview the selected audio track right inside the app before you commit to setting it as your system ringtone.
+
+### 8. Set As Ringtone Button
+![Set Ringtone Placeholder](https://via.placeholder.com/600x150?text=Set+As+Ringtone+Button)
+* **Purpose:** Registers your selected and previewed audio track as your official device ringtone.
+
+### 9. Reset Position Button
+![Reset Position Placeholder](https://via.placeholder.com/600x150?text=Reset+Position+Button)
+* **Purpose:** Instantly resets the saved "resume" playback position back to the very beginning (00:00) of the track.
+
+### 10. Floating Action Buttons (Bottom Screen)
+![FABs Placeholder](https://via.placeholder.com/600x150?text=Floating+Action+Buttons)
+* **About ('i'):** Displays the app creator and the currently installed version number.
+* **Permissions Info (Lock Icon):** Opens an overlay detailing all the system permissions the app requires.
+* **Permission Alert (Cloud/Error Icon):** This icon flashes red to alert you if your device is missing any critical system permissions. Tapping it opens a tracker to help you fix the missing access.
+
+---
+
+## Permissions Explained
+
+To make features like call-interception and ringtone-resuming possible, CalleeTune needs special access to certain parts of your Android device. We believe in total transparency. Here is exactly what we ask for and why:
+
+* **Phone & Call State:** Required to detect when an incoming call is happening so the app knows exactly when to start and stop the ringtone playback.
+* **Audio & Media:** Necessary to access your device's storage to load and play your selected custom audio track.
+* **Notifications:** Needed to run a foreground service that keeps the app running smoothly and reliably in the background.
+* **Battery Optimization:** Android often aggressively shuts down background apps to save battery. This permission ensures the system doesn't kill CalleeTune, so you never miss a ring.
+* **App Hibernation (Auto Revoke):** Highly recommended. Android automatically revokes background permissions from apps you haven't opened in a few months. This prevents CalleeTune from quietly breaking if you haven't opened the main menu in a while. 
+  * *Note for Xiaomi Users:* MIUI completely throttles apps working in the background in ultra power-saving mode. You must go to `Settings -> Apps -> Backgroundautostart` and enable the CalleeTune toggle manually.
+* **Do Not Disturb (DND) / DND Alarms:** Only requested if you explicitly enable the "Playback in DND" feature. It allows the app to bypass device silence. If denied, the app simply remains silent during DND mode.
+
+---
+
+## Bug Reports & Feature Requests
+
+Encountered a bug or have an idea for a new feature? We want to hear about it! 
+
+Please use the **Issues** tab at the top of this repository to submit a ticket. When submitting a bug report, please include your device model, Android version, and steps to reproduce the issue.
