@@ -40,11 +40,11 @@ Watch CalleeTune in action to see how easy it is to configure your custom ringto
 
 ## User Interface (UI) Guide
 
-CalleeTune is designed with a straightforward interface so you can configure your ringtone in seconds. Below is a breakdown of every element you will see on the main screen.
+CalleeTune is designed with a straightforward interface so you can configure your ringtone in seconds.It works with your existing set ringtone as well without needing to change it. Below is a breakdown of every element you will see on the main screen.
 
 ### 1. Enable CalleeTune Toggle
 ![Enable App Placeholder](https://via.placeholder.com/600x150?text=Enable+CalleeTune+Toggle)
-* **Purpose:** This is the master switch. When enabled, it allows CalleeTune to actively intercept incoming calls and play your customized track. 
+* **Purpose:** The master switch. When enabled, it allows CalleeTune to actively intercept incoming calls and play your favourite music. 
 
 ### 2. Track Status Diagnostic Box
 ![Track Status Placeholder](https://via.placeholder.com/600x150?text=Track+Status+Box)
@@ -52,11 +52,11 @@ CalleeTune is designed with a straightforward interface so you can configure you
 
 ### 3. Enable Ringtone Resume Toggle
 ![Ringtone Resume Placeholder](https://via.placeholder.com/600x150?text=Ringtone+Resume+Toggle)
-* **Purpose:** When toggled on, CalleeTune remembers exactly where your ringtone stopped playing during your last phone call and will resume from that exact second on your next call. 
+* **Purpose:** When toggled ON, CalleeTune remembers exactly where your ringtone stopped playing during your last incoming phone call and will resume from that exact second on your next incoming call. If OFF, the playback starts from the beginning on every call, just like your normal ringtone. _**Recommended**_: Keep this ON. Otherwise, what's the point of having this app? :wink:
 
 ### 4. Enable Playback in DND Toggle
 ![DND Playback Placeholder](https://via.placeholder.com/600x150?text=Playback+in+DND+Toggle)
-* **Purpose:** This setting allows your custom ringtone to bypass system silence, ensuring your audio plays even when your device is set to "Do Not Disturb" mode. 
+* **Purpose:** This setting allows your custom ringtone to bypass system silence i.e. DND-mode, ensuring your audio plays even when your device is set to "Do Not Disturb" mode. This is optional. Keeping this OFF, while keeping the app enabled, would make CalleeTune to work only outside DND-mode. In DND-mode, the app would let native Android handle the ringtone.
 
 ### 5. Track Progress Indicator
 ![Track Progress Placeholder](https://via.placeholder.com/600x150?text=Track+Progress+Text)
@@ -64,24 +64,24 @@ CalleeTune is designed with a straightforward interface so you can configure you
 
 ### 6. Select Audio Button
 ![Select Audio Placeholder](https://via.placeholder.com/600x150?text=Select+Audio+Button)
-* **Purpose:** Opens your device's file picker so you can choose the specific audio track you want to use as your ringtone.
+* **Purpose:** Lets you directly select an audio file you want to use as your system ringtone.
 
 ### 7. Preview (Play/Pause) Button
 ![Preview Track Placeholder](https://via.placeholder.com/600x150?text=Preview+Play/Pause+Button)
-* **Purpose:** Allows you to preview the selected audio track right inside the app before you commit to setting it as your system ringtone.
+* **Purpose:** Audio preview of the selected file.
 
 ### 8. Set As Ringtone Button
 ![Set Ringtone Placeholder](https://via.placeholder.com/600x150?text=Set+As+Ringtone+Button)
-* **Purpose:** Registers your selected and previewed audio track as your official device ringtone.
+* **Purpose:** Registers your selected audio track as your official device ringtone. Note that even if you remove the app for some reason (but, kindly provide your feedback here under "Issues" for my knowledge and consideration), the ringtone set via this would continue to remain your system ringtone. 
 
 ### 9. Reset Position Button
 ![Reset Position Placeholder](https://via.placeholder.com/600x150?text=Reset+Position+Button)
-* **Purpose:** Instantly resets the saved "resume" playback position back to the very beginning (00:00) of the track.
+* **Purpose:** Instantly resets the saved "resume" playback position back to the very beginning (00:00) of the audio.
 
 ### 10. Floating Action Buttons (Bottom Screen)
 ![FABs Placeholder](https://via.placeholder.com/600x150?text=Floating+Action+Buttons)
-* **About ('i'):** Displays the app creator and the currently installed version number.
-* **Permissions Info (Lock Icon):** Opens an overlay detailing all the system permissions the app requires.
+* **About ('i'):** Basic app info which would be very helpful should you decide to report any issues or features.
+* **Permissions Info (Lock Icon):** Details all the system permissions the app requires.
 * **Permission Alert (Cloud/Error Icon):** This icon flashes red to alert you if your device is missing any critical system permissions. Tapping it opens a tracker to help you fix the missing access.
 
 ---
