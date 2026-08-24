@@ -41,6 +41,11 @@ Watch CalleeTune in action to see how easy it is to configure your custom ringto
 ## User Interface (UI) Guide
 
 CalleeTune is designed with a straightforward interface so you can configure your ringtone in seconds.It works with your existing set ringtone as well without needing to change it. Below is a breakdown of every element you will see on the main screen.
+| | | |
+|---|---|---|
+| ![Screenshot 1](images/image_1.jpg) | ![Screenshot 2](images/image_2.jpg) | ![Screenshot 3](images/image_3.jpg) |
+| ![Screenshot 4](images/image_4.jpg) | ![Screenshot 5](images/image_5.jpg) | ![Screenshot 6](images/image_6.jpg) |
+| ![Screenshot 7](images/image_7.jpg) | ![Screenshot 8](images/image_8.jpg) | ![Screenshot 9](images/image_9.jpg) |
 
 ### 1. Enable CalleeTune Toggle
 ![Enable App Placeholder](https://via.placeholder.com/600x150?text=Enable+CalleeTune+Toggle)
