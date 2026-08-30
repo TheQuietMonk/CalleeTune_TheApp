@@ -3,13 +3,17 @@ Welcome to the official, and only legitimate, source of information for **Callee
 
 This document serves as the public face of the app, providing a user guide and a dedicated space for feedback. 
 
+## License
+This software is provided as freeware. You are free to redistribute the exact binary file for free, but charging money for it—either standalone or as part of a larger electronic or physical package—is strictly prohibited. See the [LICENSE](LICENSE) file for full details.
+
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [System Requirements](#system-requirements)
-3. [App Demo](#app-demo)
-4. [User Interface (UI) Guide](#user-interface-ui-guide)
-5. [Permissions Explained](#permissions-explained)
-6. [Bug Reports & Feature Requests](#bug-reports--feature-requests)
+2. [Downloads](#downloads)
+3. [System Requirements](#system-requirements)
+4. [App Demo](#app-demo)
+5. [User Interface (UI) Guide](#user-interface-ui-guide)
+6. [Permissions Explained](#permissions-explained)
+7. [Bug Reports & Feature Requests](#bug-reports--feature-requests)
 
 ---
 
@@ -20,6 +24,10 @@ This document serves as the public face of the app, providing a user guide and a
 **The Purpose:** It is lovingly created in response to a single question: _what if my favourite music/song set as a ringtone could continue across calls rather than start from the beginning on every incoming call so that I could hear it the whole?_ That'it. **CalleTune** allows the ringtone playback to resume from the last stopped position across incoming calls, allowing you to hear the whole song, divided in parts, across calls. Additionally, it provides you with an option to set your favourite music/song as a system ringtone from within it. 
 
 **Privacy First:** CalleeTune requires specific system access to serve its purpose reliably, but it **DOES NOT** collect and/or share any of your __personal__ or __device-specific information__ from your device.
+
+## Downloads
+
+The latest CalleeTune binaries are published as GitHub Releases for easy installation and updates. You can download the newest APK from the [GitHub Releases page](https://github.com/TheQuietMonk/CalleeTune_TheApp/releases).
 
 ---
 
