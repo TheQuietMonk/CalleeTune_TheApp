@@ -1,5 +1,5 @@
 # CalleeTune
-Welcome to the official, and only legitimate, source of information for **CalleeTune**, the app.
+Welcome to the official, and the only legitimate, source of information for **CalleeTune**, the app.
 
 This document serves as the public face of the app, providing a user guide and a dedicated space for feedback. 
 
