@@ -53,40 +53,44 @@ CalleeTune is designed with a straightforward interface so you can configure you
 
 ### UI Screenshot Gallery
 
-<div style="display: flex; gap: 12px; overflow-x: auto; padding: 8px 0 16px;">
-  <div style="flex: 0 0 220px;">
-    <img src="images/image_1.jpg" alt="Enable CalleeTune toggle" width="220">
-    <p>Fully configured app UI.</p>
-  </div>
-  <div style="flex: 0 0 220px;">
-    <img src="images/image_2.jpg" alt="Track status diagnostic box" width="220">
-    <p>The sign that all the pieces are in place for CalleeTune to function smoothly.</p>
-  </div>
-  <div style="flex: 0 0 220px;">
-    <img src="images/image_3.jpg" alt="Enable ringtone resume toggle" width="220">
-    <p>The bottom-right button gives a brief about the required permissions. Some are mandatory while the others are optional depending upon the configuration.</p>
-  </div>
-  <div style="flex: 0 0 220px;">
-    <img src="images/image_4.jpg" alt="Enable playback in DND toggle" width="220">
-    <p>CalleeTune would be disabled if any of the mandatory permissions are either missing or revoked. This is indicated as a notification during an incoming call to fix. Opening the app would automatically request the missing permission(s). Here, Notification permission is missing. However, this is not mandatory, but, critical to be informed about when the permissions are revoked in the bacground by Android. Once disabled, the app would remain disabled and have to be enabled manually by toggling "Enable CalleeTune"</p>
-  </div>
-  <div style="flex: 0 0 220px;">
-    <img src="images/image_6.jpg" alt="Select audio button" width="220">
-    <p>Missing phone call permission.</p>
-  </div>
-  <div style="flex: 0 0 220px;">
-    <img src="images/image_7.jpg" alt="Preview play and pause button" width="220">
-    <p>Missing phone and audio permission.</p>
-  </div>
-  <div style="flex: 0 0 220px;">
-    <img src="images/image_8.jpg" alt="Set as ringtone button" width="220">
-    <p>The user is notified if any of the critical permissions are missing, and provides the means to fix it. Here, mandatory whilisting from battery-optimisation is revoked. The permissions manager has notified this. See the colour of the button at the bottom-centre of the UI.</p>
-  </div>
-  <div style="flex: 0 0 220px;">
-    <img src="images/image_9.jpg" alt="Reset position button" width="220">
-    <p>Here one of the mandatory sub-requirement to work in DND-mode is missing. So, CalleeTune would function as expected outside of DND-mode, but, would remain disabled in DND-mode. The permission manager duly notifies the same.</p>
-  </div>
-</div>
+<table>
+  <tr>
+    <td valign="top" width="400" align="center">
+      <img src="images/image_1.jpg" alt="Enable CalleeTune toggle" width="400"><br>
+      Fully configured app UI.
+    </td>
+    <td valign="top" width="400" align="center">
+      <img src="images/image_2.jpg" alt="Track status diagnostic box" width="400"><br>
+      The sign that all the pieces are in place for CalleeTune to function smoothly.
+    </td>
+    <td valign="top" width="400" align="center">
+      <img src="images/image_3.jpg" alt="Enable ringtone resume toggle" width="400"><br>
+      The bottom-right button gives a brief about the required permissions. Some are mandatory while the others are optional depending upon the configuration.
+    </td>
+    <td valign="top" width="400" align="center">
+      <img src="images/image_4.jpg" alt="Enable playback in DND toggle" width="400"><br>
+      CalleeTune would be disabled if any of the mandatory permissions are either missing or revoked. This is indicated as a notification during an incoming call to fix. Opening the app would automatically request the missing permission(s). Here, Notification permission is missing. However, this is not mandatory, but, critical to be informed about when the permissions are revoked in the background by Android. Once disabled, the app would remain disabled and have to be enabled manually by toggling "Enable CalleeTune".
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="400" align="center">
+      <img src="images/image_6.jpg" alt="Select audio button" width="400"><br>
+      Missing phone call permission.
+    </td>
+    <td valign="top" width="400" align="center">
+      <img src="images/image_7.jpg" alt="Preview play and pause button" width="400"><br>
+      Missing phone and audio permission.
+    </td>
+    <td valign="top" width="400" align="center">
+      <img src="images/image_8.jpg" alt="Set as ringtone button" width="400"><br>
+      The user is notified if any of the critical permissions are missing, and provides the means to fix it. Here, mandatory whitelisting from battery-optimisation is revoked. The permissions manager has notified this. See the colour of the button at the bottom-centre of the UI.
+    </td>
+    <td valign="top" width="400" align="center">
+      <img src="images/image_9.jpg" alt="Reset position button" width="400"><br>
+      Here one of the mandatory sub-requirement to work in DND-mode is missing. So, CalleeTune would function as expected outside of DND-mode, but, would remain disabled in DND-mode. The permission manager duly notifies the same.
+    </td>
+  </tr>
+</table>
 
 ### 1. Enable CalleeTune Toggle
 * **Purpose:** The master switch. When enabled, it allows CalleeTune to actively intercept incoming calls and play your favourite music. 
