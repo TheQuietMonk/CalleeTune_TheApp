@@ -41,9 +41,10 @@ The latest CalleeTune binaries are published as GitHub Releases for easy install
 
 Watch CalleeTune in action to see how easy it is to configure your custom ringtone experience:
 
-<video src="videos/CalleeTune_Setup_Guide.mp4" controls width="100%" playsinline>
-  Your browser does not support the video tag.
-</video>
+[Watch the setup guide](./videos/CalleeTune_Setup_Guide.mp4) of the CalleeTune for the first-time installation.
+
+Checkout CalleeTune in action [here](./videos/CalleeTune_Playback_Demo.mp4).
+
 
 ---
 
