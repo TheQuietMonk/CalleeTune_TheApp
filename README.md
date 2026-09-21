@@ -19,21 +19,23 @@ This software is provided as freeware. You are free to redistribute the exact bi
 
 ## Introduction
 
-**CalleeTune** is a utility application envisioned and created to enhance your Android device's incoming call experience. 
+**CalleeTune** is a utility application envisioned and created to enhance your Android device's incoming call experience. It is the first-of-its-kind application that allows resumable ringtone playback. Neither Android nor iOS native ringers offer a ringtone experience like CalleeTune. However, CalleeTune is available only for Android platform.
 
 **The Purpose:** It is lovingly created in response to a single question: _what if my favourite music/song set as a ringtone could continue across calls rather than start from the beginning on every incoming call so that I could hear it the whole?_ That'it. **CalleTune** allows the ringtone playback to resume from the last stopped position across incoming calls, allowing you to hear the whole song, divided in parts, across calls. Additionally, it provides you with an option to set your favourite music/song as a system ringtone from within it. 
 
-**Privacy First:** CalleeTune requires specific system access to serve its purpose reliably, but it **DOES NOT** collect and/or share any of your __personal__ or __device-specific information__ from your device.
+**Privacy First:** CalleeTune requires specific system access to serve its purpose reliably, but it **DOES NOT** collect and/or share any of your __personal__ or __device-specific information__ from your device. It's spam-free, ad-free.
 
 ## Downloads
 
 The latest CalleeTune binaries are published as GitHub Releases for easy installation and updates. You can download the newest APK from the [GitHub Releases page](https://github.com/TheQuietMonk/CalleeTune_TheApp/releases).
 
+CalleeTune isn't available on Google Play Store due to the stringent requirements of Google for individual developers. We also have a [YouTube channel](https://www.youtube.com/channel/UCFUWgI6c6l95qxC5chfMskg) to post regular updates. 
+
 ---
 
 ## System Requirements
 
-* **Operating System:** Tested to work reliably on Android 14 or higher. You can try to use it on lower versions, but, it may not work as expected, and no support would be provided for them. The app has been tested on 3 different OEM skins: Samsung _OneUI_, Xiomi _MIUI_, and Vivo _FunTouch_. 
+* **Operating System:** Tested to work reliably on Android 14 and higher. You can try to use it on lower versions, but, it may not work as expected, and no support would be provided for them. The app has been tested on 3 different OEM skins: Samsung _OneUI_, Xiomi _MIUI_ & _HyperOS_, and Vivo _FunTouch_. 
 
 ---
 
@@ -41,9 +43,9 @@ The latest CalleeTune binaries are published as GitHub Releases for easy install
 
 Watch CalleeTune in action to see how easy it is to configure your custom ringtone experience:
 
-[Watch the setup guide](./videos/CalleeTune_Setup_Guide.mp4) of the CalleeTune for the first-time installation.
+[Watch the setup guide](./videos/CalleeTune_Setup_Guide.mp4) of the CalleeTune for the first-time installation. Here is the same on [YouTube](https://youtube.com/shorts/MmawU4CuEXY?feature=share).
 
-Checkout CalleeTune in action [here](./videos/CalleeTune_Playback_Demo.mp4).
+Checkout CalleeTune in action [here](./videos/CalleeTune_Playback_Demo.mp4) or on [YouTube](https://youtube.com/shorts/WQlGNEYTQNM?feature=share).
 
 
 ---
@@ -136,7 +138,7 @@ To make features like call-interception and ringtone-resuming possible, CalleeTu
 * **Notifications:** Needed to ensure that the app functions smoothly and reliably in the background when a call arrives. Not mandatory, but, recommended. The app would notify if any of the critical permissions are revoked in the background, especially in power-saving modes, by OEM skins.
 * **Battery Optimisation:** Android often aggressively shuts down background apps to save battery. This permission ensures the system doesn't kill CalleeTune, so you never miss a ring.
 * **App Hibernation (Auto Revoke):** Optional, but, highly recommended. Android automatically revokes background permissions from apps you haven't opened in a few months, while CalleeTune mostly works in the background. This prevents it from quietly breaking if you haven't opened the app in a while. 
-  * *Note for Xiaomi Users:* MIUI completely throttles apps working in the background in ultra power-saving mode, even when mandatory permissions are granted. You must go to `Settings -> Apps -> Background autostart` and enable the CalleeTune toggle manually while configuring the app. Refer [this guide](https://dontkillmyapp.com/xiaomi) for more details.
+  * *Note for Xiaomi Users:* MIUI and HyperOS completely throttle apps working in the background in ultra power-saving mode, even when mandatory permissions are granted. You must go to `Settings -> Apps -> Background autostart` and enable the CalleeTune toggle manually while configuring the app. Refer [this guide](https://dontkillmyapp.com/xiaomi) for more details.
 * **Do Not Disturb (DND) / DND Alarms:** Only requested if you explicitly enable the "Playback in DND" feature. It allows the app to bypass device silence. If denied, the app simply remains silent during DND mode and let Android handle the ringtone playback.
 
 ---
